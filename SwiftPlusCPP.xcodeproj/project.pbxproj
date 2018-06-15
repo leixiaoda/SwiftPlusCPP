@@ -12,6 +12,17 @@
 		2BBFC21D20D3665D00F3FA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFC21B20D3665D00F3FA50 /* Main.storyboard */; };
 		2BBFC21F20D3665F00F3FA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFC21E20D3665F00F3FA50 /* Assets.xcassets */; };
 		2BBFC22220D3665F00F3FA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFC22020D3665F00F3FA50 /* LaunchScreen.storyboard */; };
+		2BBFC26D20D36F2C00F3FA50 /* wstring_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC25220D36F2C00F3FA50 /* wstring_utils.cpp */; };
+		2BBFC26E20D36F2C00F3FA50 /* native-lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC25320D36F2C00F3FA50 /* native-lib.cpp */; };
+		2BBFC26F20D36F2C00F3FA50 /* Markup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC25C20D36F2C00F3FA50 /* Markup.cpp */; };
+		2BBFC27020D36F2C00F3FA50 /* Content.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC25D20D36F2C00F3FA50 /* Content.cpp */; };
+		2BBFC27120D36F2C00F3FA50 /* Paragraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC25E20D36F2C00F3FA50 /* Paragraph.cpp */; };
+		2BBFC27220D36F2C00F3FA50 /* BodyModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26020D36F2C00F3FA50 /* BodyModel.cpp */; };
+		2BBFC27320D36F2C00F3FA50 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26120D36F2C00F3FA50 /* Parser.cpp */; };
+		2BBFC27420D36F2C00F3FA50 /* Style.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26520D36F2C00F3FA50 /* Style.cpp */; };
+		2BBFC27520D36F2C00F3FA50 /* Json2MarkdownParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26620D36F2C00F3FA50 /* Json2MarkdownParser.cpp */; };
+		2BBFC27620D36F2C00F3FA50 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26720D36F2C00F3FA50 /* Block.cpp */; };
+		2BBFC27720D36F2C00F3FA50 /* Doc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26A20D36F2C00F3FA50 /* Doc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,31 @@
 		2BBFC21E20D3665F00F3FA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BBFC22120D3665F00F3FA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BBFC22320D3665F00F3FA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBFC25220D36F2C00F3FA50 /* wstring_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wstring_utils.cpp; sourceTree = "<group>"; };
+		2BBFC25320D36F2C00F3FA50 /* native-lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "native-lib.cpp"; sourceTree = "<group>"; };
+		2BBFC25520D36F2C00F3FA50 /* GenerateId.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GenerateId.hpp; sourceTree = "<group>"; };
+		2BBFC25620D36F2C00F3FA50 /* Paragraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Paragraph.hpp; sourceTree = "<group>"; };
+		2BBFC25720D36F2C00F3FA50 /* BodyModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BodyModel.hpp; sourceTree = "<group>"; };
+		2BBFC25820D36F2C00F3FA50 /* Parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parser.hpp; sourceTree = "<group>"; };
+		2BBFC25920D36F2C00F3FA50 /* Rule.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rule.hpp; sourceTree = "<group>"; };
+		2BBFC25A20D36F2C00F3FA50 /* Markup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Markup.hpp; sourceTree = "<group>"; };
+		2BBFC25B20D36F2C00F3FA50 /* Content.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Content.hpp; sourceTree = "<group>"; };
+		2BBFC25C20D36F2C00F3FA50 /* Markup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Markup.cpp; sourceTree = "<group>"; };
+		2BBFC25D20D36F2C00F3FA50 /* Content.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Content.cpp; sourceTree = "<group>"; };
+		2BBFC25E20D36F2C00F3FA50 /* Paragraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paragraph.cpp; sourceTree = "<group>"; };
+		2BBFC25F20D36F2C00F3FA50 /* BlockType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlockType.hpp; sourceTree = "<group>"; };
+		2BBFC26020D36F2C00F3FA50 /* BodyModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BodyModel.cpp; sourceTree = "<group>"; };
+		2BBFC26120D36F2C00F3FA50 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
+		2BBFC26220D36F2C00F3FA50 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		2BBFC26420D36F2C00F3FA50 /* Doc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Doc.hpp; sourceTree = "<group>"; };
+		2BBFC26520D36F2C00F3FA50 /* Style.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Style.cpp; sourceTree = "<group>"; };
+		2BBFC26620D36F2C00F3FA50 /* Json2MarkdownParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Json2MarkdownParser.cpp; sourceTree = "<group>"; };
+		2BBFC26720D36F2C00F3FA50 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		2BBFC26820D36F2C00F3FA50 /* Json2MarkdownParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Json2MarkdownParser.hpp; sourceTree = "<group>"; };
+		2BBFC26920D36F2C00F3FA50 /* Block.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Block.hpp; sourceTree = "<group>"; };
+		2BBFC26A20D36F2C00F3FA50 /* Doc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Doc.cpp; sourceTree = "<group>"; };
+		2BBFC26B20D36F2C00F3FA50 /* Style.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Style.hpp; sourceTree = "<group>"; };
+		2BBFC26C20D36F2C00F3FA50 /* wstring_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wstring_utils.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +92,61 @@
 			children = (
 				2BBFC21720D3665D00F3FA50 /* AppDelegate.swift */,
 				2BBFC21920D3665D00F3FA50 /* ViewController.swift */,
+				2BBFC25120D36F2C00F3FA50 /* cpp */,
 				2BBFC21B20D3665D00F3FA50 /* Main.storyboard */,
 				2BBFC21E20D3665F00F3FA50 /* Assets.xcassets */,
 				2BBFC22020D3665F00F3FA50 /* LaunchScreen.storyboard */,
 				2BBFC22320D3665F00F3FA50 /* Info.plist */,
 			);
 			path = SwiftPlusCPP;
+			sourceTree = "<group>";
+		};
+		2BBFC25120D36F2C00F3FA50 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				2BBFC25220D36F2C00F3FA50 /* wstring_utils.cpp */,
+				2BBFC25320D36F2C00F3FA50 /* native-lib.cpp */,
+				2BBFC25420D36F2C00F3FA50 /* markdown2json */,
+				2BBFC26220D36F2C00F3FA50 /* json.h */,
+				2BBFC26320D36F2C00F3FA50 /* json2markdown */,
+				2BBFC26C20D36F2C00F3FA50 /* wstring_utils.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		2BBFC25420D36F2C00F3FA50 /* markdown2json */ = {
+			isa = PBXGroup;
+			children = (
+				2BBFC25520D36F2C00F3FA50 /* GenerateId.hpp */,
+				2BBFC25620D36F2C00F3FA50 /* Paragraph.hpp */,
+				2BBFC25720D36F2C00F3FA50 /* BodyModel.hpp */,
+				2BBFC25820D36F2C00F3FA50 /* Parser.hpp */,
+				2BBFC25920D36F2C00F3FA50 /* Rule.hpp */,
+				2BBFC25A20D36F2C00F3FA50 /* Markup.hpp */,
+				2BBFC25B20D36F2C00F3FA50 /* Content.hpp */,
+				2BBFC25C20D36F2C00F3FA50 /* Markup.cpp */,
+				2BBFC25D20D36F2C00F3FA50 /* Content.cpp */,
+				2BBFC25E20D36F2C00F3FA50 /* Paragraph.cpp */,
+				2BBFC25F20D36F2C00F3FA50 /* BlockType.hpp */,
+				2BBFC26020D36F2C00F3FA50 /* BodyModel.cpp */,
+				2BBFC26120D36F2C00F3FA50 /* Parser.cpp */,
+			);
+			path = markdown2json;
+			sourceTree = "<group>";
+		};
+		2BBFC26320D36F2C00F3FA50 /* json2markdown */ = {
+			isa = PBXGroup;
+			children = (
+				2BBFC26420D36F2C00F3FA50 /* Doc.hpp */,
+				2BBFC26520D36F2C00F3FA50 /* Style.cpp */,
+				2BBFC26620D36F2C00F3FA50 /* Json2MarkdownParser.cpp */,
+				2BBFC26720D36F2C00F3FA50 /* Block.cpp */,
+				2BBFC26820D36F2C00F3FA50 /* Json2MarkdownParser.hpp */,
+				2BBFC26920D36F2C00F3FA50 /* Block.hpp */,
+				2BBFC26A20D36F2C00F3FA50 /* Doc.cpp */,
+				2BBFC26B20D36F2C00F3FA50 /* Style.hpp */,
+			);
+			path = json2markdown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +221,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBFC21A20D3665D00F3FA50 /* ViewController.swift in Sources */,
+				2BBFC27520D36F2C00F3FA50 /* Json2MarkdownParser.cpp in Sources */,
+				2BBFC26D20D36F2C00F3FA50 /* wstring_utils.cpp in Sources */,
+				2BBFC26E20D36F2C00F3FA50 /* native-lib.cpp in Sources */,
+				2BBFC27020D36F2C00F3FA50 /* Content.cpp in Sources */,
+				2BBFC27320D36F2C00F3FA50 /* Parser.cpp in Sources */,
 				2BBFC21820D3665D00F3FA50 /* AppDelegate.swift in Sources */,
+				2BBFC27220D36F2C00F3FA50 /* BodyModel.cpp in Sources */,
+				2BBFC27420D36F2C00F3FA50 /* Style.cpp in Sources */,
+				2BBFC27620D36F2C00F3FA50 /* Block.cpp in Sources */,
+				2BBFC27720D36F2C00F3FA50 /* Doc.cpp in Sources */,
+				2BBFC27120D36F2C00F3FA50 /* Paragraph.cpp in Sources */,
+				2BBFC26F20D36F2C00F3FA50 /* Markup.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +377,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLFD6CD68C;
 				INFOPLIST_FILE = SwiftPlusCPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radar.SwiftPlusCPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftPlusCPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLFD6CD68C;
 				INFOPLIST_FILE = SwiftPlusCPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radar.SwiftPlusCPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftPlusCPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

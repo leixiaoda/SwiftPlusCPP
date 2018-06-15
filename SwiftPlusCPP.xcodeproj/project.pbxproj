@@ -23,6 +23,7 @@
 		2BBFC27520D36F2C00F3FA50 /* Json2MarkdownParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26620D36F2C00F3FA50 /* Json2MarkdownParser.cpp */; };
 		2BBFC27620D36F2C00F3FA50 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26720D36F2C00F3FA50 /* Block.cpp */; };
 		2BBFC27720D36F2C00F3FA50 /* Doc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC26A20D36F2C00F3FA50 /* Doc.cpp */; };
+		2BBFC27920D39FD300F3FA50 /* Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC27820D39FD300F3FA50 /* Wrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,9 @@
 		2BBFC26A20D36F2C00F3FA50 /* Doc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Doc.cpp; sourceTree = "<group>"; };
 		2BBFC26B20D36F2C00F3FA50 /* Style.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Style.hpp; sourceTree = "<group>"; };
 		2BBFC26C20D36F2C00F3FA50 /* wstring_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wstring_utils.hpp; sourceTree = "<group>"; };
+		2BBFC27820D39FD300F3FA50 /* Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Wrapper.mm; sourceTree = "<group>"; };
+		2BBFC27A20D3A0BC00F3FA50 /* Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		2BBFC27D20D3A4E200F3FA50 /* SwiftPlusCPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPlusCPP-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				2BBFC21720D3665D00F3FA50 /* AppDelegate.swift */,
+				2BBFC27D20D3A4E200F3FA50 /* SwiftPlusCPP-Bridging-Header.h */,
+				2BBFC27820D39FD300F3FA50 /* Wrapper.mm */,
+				2BBFC27A20D3A0BC00F3FA50 /* Wrapper.h */,
 				2BBFC21920D3665D00F3FA50 /* ViewController.swift */,
 				2BBFC25120D36F2C00F3FA50 /* cpp */,
 				2BBFC21B20D3665D00F3FA50 /* Main.storyboard */,
@@ -223,6 +230,7 @@
 				2BBFC21A20D3665D00F3FA50 /* ViewController.swift in Sources */,
 				2BBFC27520D36F2C00F3FA50 /* Json2MarkdownParser.cpp in Sources */,
 				2BBFC26D20D36F2C00F3FA50 /* wstring_utils.cpp in Sources */,
+				2BBFC27920D39FD300F3FA50 /* Wrapper.mm in Sources */,
 				2BBFC26E20D36F2C00F3FA50 /* native-lib.cpp in Sources */,
 				2BBFC27020D36F2C00F3FA50 /* Content.cpp in Sources */,
 				2BBFC27320D36F2C00F3FA50 /* Parser.cpp in Sources */,
@@ -386,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftPlusCPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPlusCPP/SwiftPlusCPP-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftPlusCPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPlusCPP/SwiftPlusCPP-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

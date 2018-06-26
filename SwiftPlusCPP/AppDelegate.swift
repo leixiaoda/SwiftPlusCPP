@@ -15,10 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let json = Wrapper().markdown(toJson: "heihei")
-        if json != nil {
-            print("haha")
-        }
+        let json = WrapperSwift.markdownToJson("haha")
         return true
     }
 

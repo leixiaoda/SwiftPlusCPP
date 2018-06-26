@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftPlusCPP
 //
-//  Created by bytedance on 2018/6/15.
+//  Created by Radar on 2018/6/15.
 //  Copyright © 2018年 radar. All rights reserved.
 //
 
@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let json = WrapperSwift.markdownToJson("haha")
         return true
     }
 

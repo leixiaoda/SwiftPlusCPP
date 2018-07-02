@@ -1,5 +1,5 @@
 //
-//  WrapperSwift.swift
+//  ConverterWrapper.swift
 //  SwiftPlusCPP
 //
 //  Created by Radar on 2018/6/26.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class WrapperSwift {
+class ConverterWrapper {
     static func markdownToJson(_ markdown: String) -> String {
         return Wrapper().markdown(toJson: markdown)
     }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1CD9F520E1E93200387F55 /* WrapperSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CD9F420E1E93200387F55 /* WrapperSwift.swift */; };
+		2B29EBDF20EA19F90011AEA1 /* ConverterWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29EBDE20EA19F90011AEA1 /* ConverterWrapper.swift */; };
 		2BBFC21820D3665D00F3FA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC21720D3665D00F3FA50 /* AppDelegate.swift */; };
 		2BBFC21A20D3665D00F3FA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFC21920D3665D00F3FA50 /* ViewController.swift */; };
 		2BBFC21D20D3665D00F3FA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFC21B20D3665D00F3FA50 /* Main.storyboard */; };
@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B1CD9F420E1E93200387F55 /* WrapperSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperSwift.swift; sourceTree = "<group>"; };
+		2B29EBDE20EA19F90011AEA1 /* ConverterWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterWrapper.swift; sourceTree = "<group>"; };
 		2BBFC21420D3665D00F3FA50 /* SwiftPlusCPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlusCPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBFC21720D3665D00F3FA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BBFC21920D3665D00F3FA50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				2BBFC21720D3665D00F3FA50 /* AppDelegate.swift */,
 				2BBFC27D20D3A4E200F3FA50 /* SwiftPlusCPP-Bridging-Header.h */,
 				2BBFC27820D39FD300F3FA50 /* Wrapper.mm */,
-				2B1CD9F420E1E93200387F55 /* WrapperSwift.swift */,
+				2B29EBDE20EA19F90011AEA1 /* ConverterWrapper.swift */,
 				2BBFC27A20D3A0BC00F3FA50 /* Wrapper.h */,
 				2BBFC21920D3665D00F3FA50 /* ViewController.swift */,
 				2BBFC25120D36F2C00F3FA50 /* cpp */,
@@ -233,13 +233,13 @@
 				2BBFC21A20D3665D00F3FA50 /* ViewController.swift in Sources */,
 				2BBFC27520D36F2C00F3FA50 /* Json2MarkdownParser.cpp in Sources */,
 				2BBFC26D20D36F2C00F3FA50 /* wstring_utils.cpp in Sources */,
-				2B1CD9F520E1E93200387F55 /* WrapperSwift.swift in Sources */,
 				2BBFC27920D39FD300F3FA50 /* Wrapper.mm in Sources */,
 				2BBFC26E20D36F2C00F3FA50 /* native-lib.cpp in Sources */,
 				2BBFC27020D36F2C00F3FA50 /* Content.cpp in Sources */,
 				2BBFC27320D36F2C00F3FA50 /* Parser.cpp in Sources */,
 				2BBFC21820D3665D00F3FA50 /* AppDelegate.swift in Sources */,
 				2BBFC27220D36F2C00F3FA50 /* BodyModel.cpp in Sources */,
+				2B29EBDF20EA19F90011AEA1 /* ConverterWrapper.swift in Sources */,
 				2BBFC27420D36F2C00F3FA50 /* Style.cpp in Sources */,
 				2BBFC27620D36F2C00F3FA50 /* Block.cpp in Sources */,
 				2BBFC27720D36F2C00F3FA50 /* Doc.cpp in Sources */,

@@ -22,12 +22,12 @@
 
 @implementation Wrapper
 - (NSString *)markdownToJson:(NSString *)markdown {
-    std::string json = Sunset::markdown_to_json(std::string([markdown UTF8String]));
+    std::string json = Sunrise::markdown_to_json(std::string([markdown UTF8String]));
     return [NSString stringWithCString:json.c_str() encoding:[NSString defaultCStringEncoding]];
 }
 
 - (NSString *)jsonToMarkdown:(NSString *)json {
-    std::string markdown = Sunset::json_to_markdown(std::string([json UTF8String]));
+    std::string markdown = Sunrise::json_to_markdown(std::string([json UTF8String]));
     return [NSString stringWithCString:markdown.c_str() encoding:[NSString defaultCStringEncoding]];
 }
 

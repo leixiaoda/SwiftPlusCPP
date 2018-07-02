@@ -12,4 +12,8 @@ class WrapperSwift {
     static func markdownToJson(_ markdown: String) -> String {
         return Wrapper().markdown(toJson: markdown)
     }
+
+    static func jsonToMarkdown(_ json: String) -> String {
+        return Wrapper().json(toMarkdown: json)
+    }
 }

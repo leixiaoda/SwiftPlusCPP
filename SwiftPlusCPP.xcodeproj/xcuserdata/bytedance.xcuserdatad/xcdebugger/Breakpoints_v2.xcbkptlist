@@ -20,28 +20,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftPlusCPP/cpp/markdown2json/Paragraph.cpp"
-            timestampString = "552213467.5246069"
+            timestampString = "552293303.725466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "Sunrise::getBlockTypeString(int type)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftPlusCPP/cpp/markdown2json/Parser.cpp"
-            timestampString = "552213467.524893"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
-            landmarkName = "Sunrise::markdown_to_json(std::string markdown_str)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Sunset::getBlockTypeString(int type)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
